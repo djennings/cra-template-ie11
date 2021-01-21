@@ -1,7 +1,14 @@
 {
-  "name": "cra-template-ie11",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@rdjennings/cra-template-ie11",
+  "version": "1.1.0",
+  "main": "template.json",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "ie 11",
+    "internet explorer"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -23,16 +30,16 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djennings/cra-template-ie11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djennings/cra-template-ie11/issues"
+  },
+  "homepage": "https://github.com/djennings/cra-template-ie11#readme",
+  "description": ""
 }
