@@ -1,6 +1,6 @@
 {
   "name": "@rdjennings/cra-template-ie11",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "template.json",
   "keywords": [
     "react",
