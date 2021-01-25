@@ -4,7 +4,7 @@ This is an extension of the official base template for the create-react-app to o
 
 Specify the template 'ie11' (for example, `--template @rdjennings/ie11`).
 
-# Included polyfills
+# Polyfills included via package.json"browserslist" spec
 
 ## react-app-polyfill/ie11
 
@@ -22,6 +22,8 @@ react-app-polyfill/ie11 includes support for:
 
 react-app-polyfill/stable includes additional functinoality not supported by IE11 and other browsers. By placing IE 11 in the _browserslist_ section of package.json create-react-app will select the appropriate polyfills as needed.
 
+# ponyfill
+
 ## cdn.jsdelivr.net/npm/css-vars-ponyfill@2
 
 cdn.jsdelivr.net/npm/css-vars-ponyfill@2 is a _ponyfill_ injected into the index.html in the _public_ folder of the react app to provide CSS support for variables (all defined at the _:root_ level). As a ponyfill it must be "activated" via call to "cssVars({})" using all of the default parameters. To see all of the options for this call visit:  
@@ -31,3 +33,7 @@ https://jhildenbiddle.github.io/css-vars-ponyfill/#/
 
 A great deal of the IE 11 support is dereived from core.js. For more information on what is supported visit:  
 https://github.com/zloirock/core-js/blob/master/README.md
+
+# NOTE:
+
+CSS min, max (and by extension clamp) are still not supported. Other special handling, such as implicit grid placement, must be handled via the appropriate CSS
