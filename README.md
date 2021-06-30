@@ -36,4 +36,4 @@ https://github.com/zloirock/core-js/blob/master/README.md
 
 # NOTE:
 
-CSS min, max (and by extension clamp) are still not supported. Other special handling, such as implicit grid placement, must be handled via the appropriate CSS
+CSS min, max (and by extension clamp) are still not supported. Other special handling, such as implicit grid placement, must be handled via the appropriate CSS.
